@@ -55,21 +55,32 @@ git push origin add-book-reviews
 git pull origin main
 ![GLW](img/update-event-pullmaintoupdate.jpg)
 ## checkout and switch to new branch by Jamie
-git checkout -b update-events
-git fetch origin
-git checkout main
-git pull origin main
-## switch back to update-events and merge. This ensures Jamie's branch has the latest content, including Morgan's merged book_reviews.html page.
-git checkout update-events
-git merge main
-modify event.html by adding new line of code
+- 'git checkout -b update-events'
+- 'git fetch origin'
+- 'git checkout main'
+- 'git pull origin main'
+### Switch back to update-events and merge. This ensures Jamie's branch has the latest content, including Morgan's merged book_reviews.html page.
+
+### git checkout update-events
+![GLW](img/git%20checkout%20update-events.jpg)
+
+- 'git merge main'
+- 'modify event.html by adding new line of code'
 ## Stage changes
 git add event.html
+![GLW](img/gitupdateventpush.jpg)
 ## Commit changes
 git commit -m "   "
 ## Push branch to GitHub
 git push origin update-events
 ## create Pull Request
+![GLW](img/jamiepull1.jpg)
+
+![GLW](img/jamiepulupdatenoconflict.jpg)
+
+![GLW](img/jamiepullrequestcomplete.jpg)
+
+
 
 
 
